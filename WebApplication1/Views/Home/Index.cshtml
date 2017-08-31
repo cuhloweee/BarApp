@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <center><h1>Chloe's Cocktails & more</h1>
+    <p class="lead">Take a break & refresh with a drink. You deserve it.</p>
+   
+    <p>Customer? @Html.ActionLink("Order Now", "Menu", "Menu")  </p>
+       <p> Bartender? @Html.ActionLink("Show Order Queue", "OrderQueue", "Home")  </p>
+</center>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Signature Cocktails</h2>
+        <p>
+            Chloe's Cocktails & More has interesting, unique drinks that you can't find anywhere else. Try a cucumber watermelon mojito!
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Bold Brews</h2>
+        <p>Forget the Budlight, opt for a Duke's, I-10, or any one of our locally crafted beers.</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Elegant Wines</h2>
+        <p>Chardonnay? Merlot? Rose? Moscato? Yeah, we've got that...& more of course!</p>
+    </div>
+</div>
